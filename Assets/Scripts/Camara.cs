@@ -8,13 +8,10 @@ public class Camara : MonoBehaviour
     float rotacionX;
 
     public Transform player;
-    // Start is called before the first frame update
     void Start()
     {
 
     }
-
-    // Update is called once per frame
     void Update()
     {
         float mouseX = Input.GetAxis("Mouse X") * speedRotate * Time.deltaTime;
